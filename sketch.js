@@ -80,7 +80,7 @@ function draw() {
     
      //jump when the space key is pressed
     if(keyDown("space") && trex.y >= 160){
-      trex.velocityY = -12 ;
+      trex.velocityY = -20 ;
    //   playSound("jump.mp3");
     }
   
